@@ -1,0 +1,164 @@
+<html>
+
+<head>
+  <title>The Legend of Zelda: Breath of the Wild Music</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+  <div class="background">
+    <div class="lonk">
+      <img src="media/lonk.png" class="lonk2">
+    </div>
+
+    <div class="title">
+      <h1>The Legend of Zelda:<br>Breath of the Wild<br>Music</h1>
+    </div>
+
+    <div class="music">
+      <div class="mainTheme">
+        <img src="media/zelda.png" id="mainThemeIcon">
+        <mainTheme>Main Theme</mainTheme>
+      </div>
+
+      <div>
+        <img src="media/mipha.png" id="miphaThemeIcon">
+        <miphaTheme>Mipha's Theme</miphaTheme>
+      </div>
+
+      <div>
+        <img src="media/daruk.png" id="darukThemeIcon">
+        <darukTheme>Daruk's Theme</darukTheme>
+      </div>
+
+      <div>
+        <img src="media/revali.png" id="revaliThemeIcon">
+        <revaliTheme>Revali's Theme</revaliTheme>
+      </div>
+
+      <div>
+        <img src="media/urbosa.png" id="urbosaThemeIcon">
+        <urbosaTheme>Urbosa's Theme</urbosaTheme>
+      </div>
+
+      <div>
+        <img src="media/kass.png" id="kassChBdThemeIcon">
+        <kassChBdTheme>Champion's Ballad Kass' Song</kassChBdTheme>
+      </div>
+    </div>
+
+  </div>
+
+  <audio id="mainTheme">
+    <source src="media/mainTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="miphaTheme">
+    <source src="media/miphaTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="darukTheme">
+    <source src="media/darukTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="revaliTheme">
+    <source src="media/revaliTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="urbosaTheme">
+    <source src="media/urbosaTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <audio id="kassChBdTheme">
+    <source src="media/kassChBdTheme.mp3" type="audio/mp3">
+  </audio>
+
+  <script>
+    var mainTheme = document.getElementById("mainTheme");
+    var mainThemeIcon = document.getElementById("mainThemeIcon");
+
+    mainThemeIcon.onclick = function () {
+      if (mainTheme.paused) {
+        mainTheme.play();
+        mainTheme.volume = 0.1;
+        mainThemeIcon.src = "media/zelda.png"
+      } else {
+        mainTheme.pause();
+        mainThemeIcon.src = "media/zelda.png"
+      }
+    }
+
+    var miphaTheme = document.getElementById("miphaTheme");
+    var miphaThemeIcon = document.getElementById("miphaThemeIcon");
+
+    miphaThemeIcon.onclick = function () {
+      if (miphaTheme.paused) {
+        miphaTheme.play();
+        miphaTheme.volume = 0.1;
+        miphaThemeIcon.src = "media/mipha.png"
+      } else {
+        miphaTheme.pause();
+        miphaThemeIcon.src = "media/mipha.png"
+      }
+    }
+
+    var darukTheme = document.getElementById("darukTheme");
+    var darukThemeIcon = document.getElementById("darukThemeIcon");
+
+    darukThemeIcon.onclick = function () {
+      if (darukTheme.paused) {
+        darukTheme.play();
+        darukTheme.volume = 0.1;
+        darukThemeIcon.src = "media/daruk.png"
+      } else {
+        darukTheme.pause();
+        darukThemeIcon.src = "media/daruk.png"
+      }
+    }
+
+    var revaliTheme = document.getElementById("revaliTheme");
+    var revaliThemeIcon = document.getElementById("revaliThemeIcon");
+
+    revaliThemeIcon.onclick = function () {
+      if (revaliTheme.paused) {
+        revaliTheme.play();
+        revaliTheme.volume = 0.1;
+        revaliThemeIcon.src = "media/revali.png"
+      } else {
+        revaliTheme.pause();
+        revaliThemeIcon.src = "media/revali.png"
+      }
+    }
+
+    var urbosaTheme = document.getElementById("urbosaTheme");
+    var urbosaThemeIcon = document.getElementById("urbosaThemeIcon");
+
+    urbosaThemeIcon.onclick = function () {
+      if (urbosaTheme.paused) {
+        urbosaTheme.play();
+        urbosaTheme.volume = 0.1;
+        urbosaThemeIcon.src = "media/urbosa.png"
+      } else {
+        urbosaTheme.pause();
+        urbosaThemeIcon.src = "media/urbosa.png"
+      }
+    }
+
+    var kassChBdTheme = document.getElementById("kassChBdTheme");
+    var kassChBdThemeIcon = document.getElementById("kassChBdThemeIcon");
+
+    kassChBdThemeIcon.onclick = function () {
+      if (kassChBdTheme.paused) {
+        kassChBdTheme.play();
+        kassChBdTheme.volume = 0.1;
+        kassChBdThemeIcon.src = "media/kass.png"
+      } else {
+        kassChBdTheme.pause();
+        kassChBdThemeIcon.src = "media/kass.png"
+      }
+    }
+  </script>
+
+</body>
+
+</html>

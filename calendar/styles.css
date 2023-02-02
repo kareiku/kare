@@ -1,0 +1,35 @@
+div {
+    text-align: center;
+    width: 300px;
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+li {
+    text-align: right;
+}
+
+.first-day {
+    grid-column-start: 4;
+}
+
+.bei-bday {
+    font-weight: bold;
+    color: darkturquoise;
+}
+
+.abeto-bday {
+    font-weight: bold;
+    color: magenta;
+}
+
+.day-name {
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}

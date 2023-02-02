@@ -1,0 +1,9 @@
+body {
+    background: rgba(52, 67, 98, 30);
+}
+
+a.piano {
+    display: block;
+    background-color: aliceblue;
+    block-size: 2cm;
+}

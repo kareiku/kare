@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url(media/background.png);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    cursor: default;
+}
+
+.lonk {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lonk2 {
+    width: 140px;
+    cursor: wait;
+}
+
+.music {
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: left;
+    top: 30%;
+}
+
+.title h1 {
+    font-size: 50px;
+    background: linear-gradient(rgb(0, 80, 0), rgb(0, 160, 0));
+    line-height: 60px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.music {
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#mainThemeIcon,
+#miphaThemeIcon,
+#darukThemeIcon,
+#revaliThemeIcon,
+#urbosaThemeIcon,
+#kassChBdThemeIcon {
+    width: 80px;
+    cursor: pointer;
+}

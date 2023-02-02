@@ -1,0 +1,1 @@
+## Daily Puzzle from [chess.com](https://chess.com).
