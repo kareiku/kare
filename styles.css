@@ -1,9 +1,30 @@
 body {
-    background: rgba(52, 67, 98, 30);
+    background: rgb(122, 67, 93);
 }
 
-a.piano {
-    display: block;
-    background-color: aliceblue;
-    block-size: 2cm;
+div {
+    display: grid;
+    place-items: center;
+}
+
+button {
+    min-width: 200px;
+    min-height: 50px;
+    color: #000;
+}
+
+.heart {
+    color: #d7d7d7;
+    text-decoration: none;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+}
+
+.footer {
+    color: #d7d7d7;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    right: 35%;
 }

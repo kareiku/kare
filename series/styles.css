@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+    background: #c07c5d;;
+}
+
+table {
+    font-family: system-ui;
+    border-collapse: separate;
+    width: 100%;
+    table-layout: fixed;
+    padding: .7cm;
+    text-align: center;
+}
+
+td,
+tr,
+th {
+    padding: 8px;
+    background: #d7d7d7;
+}
+
+a {
+    text-decoration: none;
+}
