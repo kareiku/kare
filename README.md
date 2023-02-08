@@ -25,7 +25,7 @@ Eb5|P
 E5|:
 
 ## Anime sites
-    #### [AniMixPlay](https://animixplay.to)
-    #### [9anime.id](https://9anime.id)
-    #### [Dynasty Reader](https://dynasty-scans.com)
-    #### [MangaDex](https://mangadex.org)
+#### [AniMixPlay](https://animixplay.to)
+#### [9anime.id](https://9anime.id)
+#### [Dynasty Reader](https://dynasty-scans.com)
+#### [MangaDex](https://mangadex.org)
