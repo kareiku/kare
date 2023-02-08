@@ -20,7 +20,7 @@ function createTable(tableData) {
 
 createTable([
     ["Anime Series", "Assassination Classroom", "Action, Sci-fi", "Seen"],
-    ["Anime Series", "Sword Art Online", "Adventure, Sci-fi", "T3+ Not Seen"],
+    ["Anime Series", "Sword Art Online", "Adventure, Sci-fi", "T3 Not Seen"],
     ["Anime Series", "No Game No Life", "Isekai, Fantasy", "Seen"],
     ["Anime Series", "Death Note", "", "Seen"],
     ["Anime Series", "Shingeki no Kyojin", "", "Seen"],
@@ -91,4 +91,5 @@ createTable([
     ["American Series", "You", "", "Not Seen"],
     ["Anime Series", "Lonely Girl ni Sakaraenai", "", "Not Seen"],
     ["American Series", "The Queen's Gambit", "", "Not Seen"]
+    ["American Documentary", "Cunk On Earth", "Comedy", "Not Seen"]
 ]);
