@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    background: linear-gradient(rgb(167, 94, 0), rgb(83, 54, 0));
+    background-attachment: fixed;
+}
+
+table {
+    font-family: system-ui;
+    border-collapse: separate;
+    width: 100%;
+    table-layout: fixed;
+    padding: .7cm;
+    text-align: center;
+}
+
+td,
+tr,
+th {
+    padding: 8px;
+    background: #d7d7d7;
+}

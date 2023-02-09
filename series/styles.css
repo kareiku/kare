@@ -1,6 +1,7 @@
 html {
     height: 100%;
-    background: #c07c5d;
+    background: linear-gradient(rgb(0, 0, 80), rgb(0, 0, 180));
+    background-attachment: fixed;
 }
 
 table {

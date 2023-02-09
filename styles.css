@@ -1,7 +1,7 @@
 html {
     height: 100%;
-    font-size: 100%;
-    background: rgb(122, 67, 93);
+    background: linear-gradient(rgb(122, 67, 93), rgb(152, 67, 93));
+    background-attachment: fixed;
 }
 
 div {
