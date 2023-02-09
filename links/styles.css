@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+    background: linear-gradient(rgb(184, 98, 123), rgb(31, 122, 47));
+    background-attachment: fixed;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+button {
+    min-width: 700px;
+    min-height: 35px;
+}
