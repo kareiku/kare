@@ -1,11 +1,16 @@
+@media (67.5em > width > 30em) {}
+
+@media (width > 67.5em) {}
+
 html {
     height: 100%;
+    font-size: 100%;
     background: linear-gradient(#4C002D, #25005F);
 }
 
 .media {
     display: flex;
-    height: 10cm;
+    height: 300px;
 }
 
 .media img {
@@ -18,13 +23,7 @@ html {
 
 .media img:hover {
     cursor: pointer;
-    width: 5cm;
+    width: 300px;
     opacity: 1;
     filter: contrast(120%);
-}
-
-@media screen and (min-width:1921px) {
-    html {
-        background: black;
-    }
 }

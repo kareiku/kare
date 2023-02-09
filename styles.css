@@ -1,4 +1,10 @@
-body {
+@media (67.5em > width > 30em) {}
+
+@media (width > 67.5em) {}
+
+html {
+    height: 100%;
+    font-size: 100%;
     background: rgb(122, 67, 93);
 }
 
