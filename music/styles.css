@@ -3,26 +3,28 @@ html {
     background: linear-gradient(#4C002D, #25005F);
 }
 
-.minami {
+.media {
     display: flex;
-    width: auto;
-    height: 300px;
-    margin-top: -.5cm;
-    margin-left: -.1cm;
-    margin-right: -.2cm;
+    height: 10cm;
 }
 
-.minami img {
-    width: 0px;
+.media img {
+    width: 0;
     flex-grow: 1;
     object-fit: cover;
     opacity: .5;
     transition: 1s ease;
 }
 
-.minami img:hover {
-    cursor: crosshair;
-    width: 300px;
+.media img:hover {
+    cursor: pointer;
+    width: 5cm;
     opacity: 1;
     filter: contrast(120%);
+}
+
+@media screen and (min-width:1921px) {
+    html {
+        background: black;
+    }
 }
