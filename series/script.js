@@ -90,6 +90,7 @@ createTable([
     ["American Animated Series", "The Owl House", "", "Not Seen"],
     ["American Series", "You", "", "Not Seen"],
     ["Anime Series", "Lonely Girl ni Sakaraenai", "", "Not Seen"],
-    ["American Series", "The Queen's Gambit", "", "Not Seen"]
-    ["American Documentary", "Cunk On Earth", "Comedy", "Not Seen"]
+    ["American Series", "The Queen's Gambit", "", "Not Seen"],
+    ["American Documentary", "Cunk On Earth", "Comedy", "Not Seen"],
+    ["Anime Movie", "Suzume no Tojimari", "", "Not Seen"]
 ]);
