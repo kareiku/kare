@@ -1,4 +1,4 @@
-##### <a href="https://kareiku.github.io/kare" target="_blank">Website</a>
+<a href="https://kareiku.github.io/kare" target="_blank">Website</a>
 
 ## Piano
 #### Following this scheme, each note can be played by pressing such keys:
