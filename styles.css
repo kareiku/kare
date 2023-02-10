@@ -26,18 +26,10 @@ button {
     font-style: oblique;
 }
 
-.heart {
+a {
     color: #dfdfdf;
     text-decoration: none;
     position: absolute;
     right: 8px;
     top: 3px;
-}
-
-.footer {
-    color: #dfdfdf;
-    position: absolute;
-    bottom: 0;
-    left: 35%;
-    right: 35%;
 }
