@@ -6,13 +6,17 @@ html {
 
 div {
     display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
     place-items: center;
 }
 
 button {
-    min-width: 200px;
-    min-height: 50px;
+    width: 100px;
+    height: 100px;
     color: #000;
+    border: none;
+    border-radius: 8px;
 }
 
 .heart {

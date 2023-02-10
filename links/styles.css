@@ -6,10 +6,18 @@ html {
 
 body {
     display: grid;
-    place-items: center;
+    grid-template-columns: auto auto auto auto;
+    padding: .25em;
+    gap: .25em;
 }
 
 button {
-    min-width: 700px;
-    min-height: 35px;
+    min-height: 3.5em;
+    font-family: system-ui;
+    font-size: 14px;
+    color: #dfdfdf;
+    border: none;
+    background: radial-gradient(circle, rgb(101, 0, 148), rgb(30, 8, 82));
+    cursor: pointer;
+    border-radius: 8px;
 }
