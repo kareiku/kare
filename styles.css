@@ -16,7 +16,7 @@ button {
 }
 
 .heart {
-    color: #d7d7d7;
+    color: #dfdfdf;
     text-decoration: none;
     position: absolute;
     right: 8px;
@@ -24,7 +24,7 @@ button {
 }
 
 .footer {
-    color: #d7d7d7;
+    color: #dfdfdf;
     position: absolute;
     bottom: 0;
     left: 35%;

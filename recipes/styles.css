@@ -1,21 +1,21 @@
 html {
     height: 100%;
-    background: linear-gradient(rgb(167, 94, 0), rgb(83, 54, 0));
+    background: linear-gradient(#8b5a2b, #8b4513);
     background-attachment: fixed;
-}
-
-table {
+    color: #dfdfdf;
     font-family: system-ui;
-    border-collapse: separate;
-    width: 100%;
-    table-layout: fixed;
-    padding: .7cm;
-    text-align: center;
 }
 
-td,
-tr,
-th {
-    padding: 8px;
-    background: #d7d7d7;
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+dl {
+    padding-top: 1em;
+    padding-left: 4em;
+}
+
+dt {
+    text-decoration: underline;
 }
