@@ -13,10 +13,6 @@ body {
     align-items: center;
 }
 
-a {
-    color: whitesmoke;
-}
-
 .piano {
     display: flex;
     position: relative;
