@@ -6,17 +6,24 @@ html {
 
 div {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 2em;
     place-items: center;
+    padding: .25em;
 }
 
 button {
-    width: 100px;
-    height: 100px;
-    color: #000;
+    width: 400px;
+    height: 160px;
     border: none;
     border-radius: 8px;
+    color: #dfdfdf;
+    background: linear-gradient(130deg, rgb(0, 150, 120), rgb(0, 40, 190));
+    cursor: pointer;
+    font-family: system-ui;
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: oblique;
 }
 
 .heart {
