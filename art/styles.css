@@ -10,7 +10,8 @@ body {
     place-items: center;
 }
 
-img {
+img,
+video {
     height: 250px;
     width: auto;
     border-radius: 7px;
