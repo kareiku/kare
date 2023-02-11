@@ -1,4 +1,4 @@
-##### [Website](https://kareiku.github.io/kare)
+<button onclick='window.open("https://kareiku.github.io/kare")'>Website</button>
 
 ## Piano
 #### Following this scheme, each note can be played by pressing such keys:
