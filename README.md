@@ -22,7 +22,7 @@ C5|K
 Db5|O
 D5|L
 Eb5|P
-E5|:
+E5|Ñ
 
 ## Anime sites
 #### [AniMixPlay](https://animixplay.to)
