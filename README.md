@@ -2,7 +2,7 @@
 
 ## Piano
 #### Following this scheme, each note can be played by pressing such keys:
-![alt text](https://en.wikipedia.org/wiki/List_of_QWERTY_keyboard_language_variants#/media/File:KB_Spanish.svg)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/7/74/KB_Spanish.svg)
 
 Note|Key
 ---|---
@@ -22,7 +22,7 @@ C5|K
 Db5|O
 D5|L
 Eb5|P
-E5|Ñ
+E5|:
 
 ## Anime sites
 #### [AniMixPlay](https://animixplay.to)
