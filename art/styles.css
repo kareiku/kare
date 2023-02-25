@@ -12,8 +12,9 @@ body {
     gap: 1em;
 }
 
-img,
-video {
+figcaption {}
+
+img {
     height: 250px;
     width: auto;
     border-radius: 7px;
