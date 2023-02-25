@@ -29,3 +29,4 @@ E5|Ñ
 #### [9anime.id](https://9anime.id)
 #### [Dynasty Reader](https://dynasty-scans.com)
 #### [MangaDex](https://mangadex.org)
+#### [GoGoAnime](https://gogoanime.gg)

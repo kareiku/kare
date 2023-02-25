@@ -92,5 +92,6 @@ createTable([
     ["Anime Series", "Lonely Girl ni Sakaraenai", "", "Not Seen"],
     ["American Series", "The Queen's Gambit", "", "Not Seen"],
     ["American Documentary", "Cunk On Earth", "Comedy", "Not Seen"],
-    ["Anime Movie", "Suzume no Tojimari", "", "Not Seen"]
+    ["Anime Movie", "Suzume no Tojimari", "", "Not Seen"],
+    ["Manga", "Monster", "", "Not Read"]
 ]);
