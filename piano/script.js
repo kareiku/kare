@@ -16,7 +16,6 @@ class Note {
         setTimeout(() => (clone.pause()), 2000);
         this.noteDomElement.classList.add("active");
         setTimeout(() => this.noteDomElement.classList.remove("active"), 200)
-        console.log(this.noteDomElement)
     }
 
     blindListeners() {
