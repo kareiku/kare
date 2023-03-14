@@ -1,82 +1,73 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
     height: 100%;
     background: rosybrown;
     background-attachment: fixed;
 }
 
-div {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 2em;
-    place-items: center;
-    padding: .25em;
-}
-
-div button {
-    margin: 20px;
-    outline: none;
-    width: 200px;
-    height: 100px;
-    padding: 10px 25px;
-    border: 2px solid #000;
-    font-family: system-ui;
-    font-weight: 500;
-    font-size: 25px;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    background: #000;
-    color: #fff;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    z-index: 1;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
-}
-
-div button:hover {
-    background: transparent;
-    color: #000;
-}
-
-div button:before,
-div button:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    width: 100%;
-    height: 50%;
-    right: 0;
-    z-index: -1;
-    background: #000;
-    transition: all 0.3s ease;
-}
-
-div button:before {
-    top: 0;
-}
-
-div button:after {
-    bottom: 0;
-}
-
-div button:hover:before,
-div button:hover:after {
-    height: 0;
-    background-color: #000;
-}
-
 #love-function {
     position: fixed;
+    bottom: 0;
     right: 0;
-    top: 0;
     border: none;
     border-radius: 50%;
     background: none;
     cursor: pointer;
     font-size: 18px;
-    color: purple;
+    color: red;
+}
+
+.music {
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+    animation: movement linear 100s infinite alternate;
+}
+
+#song {
+    width: 300px;
+    height: 300px;
+    filter: brightness(50%);
+    transition: 1s ease;
+}
+
+#song:hover {
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+.art {
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+    left: 0;
+    top: 300px;
+}
+
+#picture {
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .8s ease;
+}
+
+#picture:hover {
+    width: 320px;
+    cursor: pointer;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+@keyframes movement {
+    to {
+        left: 100%;
+        transform: translateX(-100%);
+    }
 }
