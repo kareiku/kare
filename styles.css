@@ -1,3 +1,7 @@
+* {
+    -webkit-user-drag: none;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -33,7 +37,7 @@ html {
     width: 300px;
     height: 300px;
     filter: brightness(50%);
-    transition: 1s ease;
+    transition: .8s ease;
 }
 
 #song:hover {
@@ -43,7 +47,7 @@ html {
 
 .art {
     position: absolute;
-    display: flex;
+    display: none;
     white-space: nowrap;
     left: 0;
     top: 300px;
@@ -59,7 +63,7 @@ html {
 }
 
 #picture:hover {
-    width: 320px;
+    height: 310px;
     cursor: pointer;
     opacity: 1;
     filter: contrast(120%);
@@ -67,7 +71,6 @@ html {
 
 @keyframes movement {
     to {
-        left: 100%;
         transform: translateX(-100%);
     }
 }
